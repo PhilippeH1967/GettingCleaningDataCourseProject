@@ -34,12 +34,9 @@ The dataset includes the following files:
 =========================================
 
 - README.md
-
 - codebook.md
-
-- tidy_dataset_1.csv
-
-- tidy_dataset_2.csv
+- tidy_dataset_1.txt
+- tidy_dataset_2.txt
 
 ==================================================================
 

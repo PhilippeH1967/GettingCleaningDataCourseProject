@@ -47,6 +47,6 @@ xy = xy[,c("subject","set","activity","feature","measurement")]
 # independent tidy data set with the average of each variable for each activity and each subject.
 by_subject_activity = group_by(xy,subject,activity,feature)
 xy2 = summarize(by_subject_activity,mean=mean(as.numeric(measurement)))
-xy2
 
-ggplot2(xy2)
+write.table(xy,'tidy_dataset_1.txt', row.name=FALSE)
+write.table(xy2,'tidy_dataset_2.txt', row.name=FALSE)

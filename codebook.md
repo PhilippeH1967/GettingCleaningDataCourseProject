@@ -1,18 +1,17 @@
-CodeBook For analysis UCI HAR DATASET for Assignment Week 4  
-===========================================================                   
+CodeBook For Getting and Cleaning Data Course Project
+=====================================================                  
                                                                                 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
 Datasets
 =========
 
-  - tidy_dataset_1.csv 
+  - tidy_dataset_1.txt
 
-    DATA ARE DELIMITED WITH ","         
+    DATA ARE DELIMITED WITH " "         
 
      VARIABLE NAME         VARIABLE                             VALUES OR EXPLANATION               
                                                                                 
-                           Observation number      
      subject               Subject number                       1 to 30                                                                                                   
      set                   Observation Set                      TRAIN or TEST        
      activity              activity                             WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING OR LAYING    
@@ -20,11 +19,10 @@ Datasets
      measurement           feature's measurement                Features are normalized and bounded within [-1,1]
 
 
-   - tidy_dataset_2.csv (from the first dataset)
+   - tidy_dataset_2.txt (from the first dataset)
 
      VARIABLE NAME         VARIABLE                             VALUES OR EXPLANATION               
                                                                                 
-                           Observation number                   
      subject               Subject number                       1 to 30                                                                                                         
      activity              activity                             WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING OR LAYING    
      feature               feature's name                       see below
