@@ -67,4 +67,4 @@ measurements = cbind(subjects,y,X)
 by_subject_activity = group_by(measurements,subject,activity)
 summary = summarise_at(by_subject_activity,4:82,mean)
 
-write.table(measurements,'tidy_dataset.txt', row.name=FALSE)
+write.table(summary,'tidy_dataset.txt', row.name=FALSE)
